@@ -18,7 +18,7 @@ You need to have some skills on symfony for install correctly this project.
 
 1. Clone the project
 2. Run `composer install`
-3. Run `php bin\console doctrine:schema:update` for install DB
+3. Run `php bin/console doctrine:schema:update` for install DB
 4. In the database run this: 
 `INSERT INTO discount_card (name, reference) VALUES ('TGV MAX', 'SNCF.HappyCard');`
 5. In the database, import `stations.sql`
