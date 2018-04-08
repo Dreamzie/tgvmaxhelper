@@ -22,7 +22,7 @@ You need to have some skills on symfony for install correctly this project.
 4. In the database run this: 
 `INSERT INTO discount_card (name, reference) VALUES ('TGV MAX', 'SNCF.HappyCard');`
 5. In the database, import `stations.sql`
-6. Add cron, for run every time this: `php bin\console train:searchandbooktrip`
+6. Add cron, for run every time this: `php bin/console train:searchandbooktrip`
 7. Create account
 8. Add your TGVmax card
 9. Add trip you want to book with your TGVmax card
